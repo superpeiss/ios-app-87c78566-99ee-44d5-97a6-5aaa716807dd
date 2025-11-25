@@ -70,7 +70,6 @@ struct EditorView: View {
                     Button("Export") {
                         showingExport = true
                     }
-                    .fontWeight(.semibold)
                 }
             }
             .sheet(isPresented: $showingExport) {
