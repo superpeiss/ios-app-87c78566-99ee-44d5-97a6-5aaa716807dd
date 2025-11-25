@@ -19,6 +19,7 @@ targets:
       - MusicVideoGenerator
     settings:
       base:
+        INFOPLIST_FILE: MusicVideoGenerator/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.musicvideogenerator.app
         TARGETED_DEVICE_FAMILY: "1,2"
         SWIFT_VERSION: "5.0"
@@ -31,6 +32,7 @@ targets:
           SWIFT_OPTIMIZATION_LEVEL: "-O"
 
     info:
+      path: MusicVideoGenerator/Info.plist
       properties:
         CFBundleDisplayName: MusicVideo Generator
         CFBundleShortVersionString: $(MARKETING_VERSION)
