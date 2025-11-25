@@ -55,6 +55,7 @@ targets:
         NSMicrophoneUsageDescription: "We need access to analyze audio files"
         NSPhotoLibraryUsageDescription: "We need access to save your generated music videos"
         NSPhotoLibraryAddUsageDescription: "We need access to save your generated music videos"
+        NSSpeechRecognitionUsageDescription: "We need access to transcribe lyrics from your audio files"
 
 schemes:
   MusicVideoGenerator:
